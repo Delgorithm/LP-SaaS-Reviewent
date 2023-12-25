@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import Hero from '../components/Hero/Hero'
 import Entreprises from '../components/Assets/Entreprises'
-import Process from '../components/Process/Process'
 import Price from '../components/Price/Price'
 import Faq from '../components/FAQ/Faq'
 import Join from '../components/Join/Join'
@@ -16,7 +15,6 @@ const Home = () => {
         <div className='h-1 bg-neutrals-13'></div>
         <Hero />
         <Entreprises />
-        <Process />
         <Price />
         <Faq />
         <Join />

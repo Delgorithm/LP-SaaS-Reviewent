@@ -10,10 +10,10 @@ const Navbar = () => {
         <div>
           <ul className='text-white'>
             <li className='font-light flex gap-10 border-[1px] border-neutrals-11 p-2 px-10 ml-16 rounded-xl'>
-              <a href="#" className='p-2 hover:text-washed-purple-600 hover:-translate-y-1 transform transition duration-150'>Features</a>
-              <a href="#" className='p-2 hover:text-washed-purple-600 hover:-translate-y-1 transform transition duration-150'>Testimonials</a>
-              <a href="#" className='p-2 hover:text-washed-purple-600 hover:-translate-y-1 transform transition duration-150'>Pricing</a>
-              <a href="#" className='p-2 hover:text-washed-purple-600 hover:-translate-y-1 transform transition duration-150'>FAQ</a>
+              <a href="#features" className='p-2 hover:text-washed-purple-600 hover:-translate-y-1 transform transition duration-150'>Features</a>
+              <a href="#testimonials" className='p-2 hover:text-washed-purple-600 hover:-translate-y-1 transform transition duration-150'>Testimonials</a>
+              <a href="#pricing" className='p-2 hover:text-washed-purple-600 hover:-translate-y-1 transform transition duration-150'>Pricing</a>
+              <a href="#faq" className='p-2 hover:text-washed-purple-600 hover:-translate-y-1 transform transition duration-150'>FAQ</a>
             </li>
           </ul>
         </div>
