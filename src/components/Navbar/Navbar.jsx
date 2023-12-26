@@ -3,10 +3,8 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-      <section id='#accueil' className='bg-neutrals flex justify-between items-center bg-black-2 p-6 pt-10'>
-        <h1>
-          <a href='#' className='text-2xl text-white'>Reviewent</a>
-        </h1>
+      <section  className='bg-neutrals flex justify-between items-center bg-black-2 p-6 pt-10'>
+        <h1 id='accueil' className='text-2xl text-white'>Reviewent</h1>
         <div>
           <ul className='text-white'>
             <li className='font-light flex gap-10 border-[1px] border-neutrals-11 p-2 px-10 ml-16 rounded-xl'>

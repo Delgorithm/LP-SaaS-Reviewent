@@ -2,8 +2,6 @@ import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import Price from '../components/Price/Price'
 import Faq from '../components/FAQ/Faq'
-import Join from '../components/Join/Join'
-import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
 import Feature from '../components/Feature/Feature'
 import Testimonials from '../components/Testimonials/Testimonials'
@@ -17,8 +15,6 @@ const Home = () => {
         <Testimonials />
         <Price />
         <Faq />
-        <Join />
-        <Contact />
         <Footer />
     </div>
   )
