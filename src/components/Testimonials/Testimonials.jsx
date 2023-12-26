@@ -6,7 +6,7 @@ const Testimonials = () => {
     <div className='flex flex-col items-center'>
         <p id='testimonials' className='mt-8 mr-5 text-washed-purple-700 text-lg font-light'>Testimonials</p>
         <h3 className='p-4 text-3xl text-center text-washed-purple-700'>Optimize your journey: track, learn and elevate your interview skills 📈</h3>
-        <p className='text-center text-washed-purple-400 text-[0.93em] leading-7'>Maximize your potential with personalized interview tracking. Elevate your skills, stand out, and secure your dream job effortlessly.</p>
+        <p className='text-center text-washed-purple-400 text-lg leading-7 md:mx-24'>Maximize your potential with personalized interview tracking. Elevate your skills, stand out, and secure your dream job effortlessly.</p>
         <div className='flex w-screen gap-8 mt-16'>
           <SocialProof 
             link="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 

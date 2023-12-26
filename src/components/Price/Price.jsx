@@ -3,10 +3,10 @@ import PricingProps from './PricingProps'
 
 const Price = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center md:-translate-y-24'>
       <p id='pricing' className='mt-8 mr-5 text-washed-purple-700 text-lg font-light -translate-y-32'>Pricing</p>
         <h3 className='p-4 text-3xl text-center text-washed-purple-700 -translate-y-32'>Choose the plan that catapults your interview success</h3>
-        <p className='text-center text-washed-purple-400 text-[0.93em] leading-7 -translate-y-32'>Unlock premium features and elevate your interview performance with our <br /> flexible pricing plans tailored to your career goals</p>
+        <p className='text-center text-washed-purple-400 text-lg leading-7 -translate-y-32'>Unlock premium features and elevate your interview performance with our <br /> flexible pricing plans tailored to your career goals</p>
         <div className='flex w-screen justify-center gap-10'>
           <PricingProps 
             title="💎 Basic"

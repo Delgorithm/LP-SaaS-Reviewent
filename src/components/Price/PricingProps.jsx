@@ -2,7 +2,7 @@ import React from 'react'
 
 const PricingProps = (props) => {
   return (
-    <div className='flex w-80 hover:scale-105 hover:-translate-y-4 transition duration-300 ease-in-out'>
+    <div className='flex w-80 hover:scale-105 hover:-translate-y-4 transition duration-300 ease-in-out md:w-64'>
       <div className='border-[1px] px-6 py-4 rounded-3xl border-washed-purple-500 bg-gradient-to-b from-neutrals to-washed-blue-900'>
         <p className='text-4xl text-center pb-4 pt-6'>{props.title}</p>
         <div>

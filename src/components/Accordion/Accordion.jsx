@@ -10,7 +10,7 @@ const Accordion = (props) => {
             onClick={() => setAccordionOpen(!accordionOpen)}
             className='flex justify-between w-full'
         >
-            <span className='text-washed-blue-300'>{props.question}</span>
+            <span className='text-washed-blue-300 text-left'>{props.question}</span>
             {accordionOpen 
                 ? <span className='text-3xl text-washed-purple-300'>-</span> 
                 : <span className='text-3xl text-washed-purple-300'>+</span> }

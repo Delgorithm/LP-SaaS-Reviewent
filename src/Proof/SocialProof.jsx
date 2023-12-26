@@ -10,7 +10,7 @@ const SocialProof = (props) => {
                 <p className='text-washed-purple-800'>{props.username}</p>
             </div>
         </div>
-        <p className='text-neutrals-6'>{props.answer}</p>
+        <p className='text-neutrals-6 md:line-clamp-6'>{props.answer}</p>
   </div>
   )
 }
