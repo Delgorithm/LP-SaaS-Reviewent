@@ -7,8 +7,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        'xxxsm': {'min': '320px'},
-        'xxsm': {'min': '321px', 'max': '480px'},
+        'xxxsm': {'min': '320px', 'max': '480px'},
         'xsm': {'min': '481px', 'max': '639px'},
         'sm': {'min': '640px', 'max': '767px'},
         'md': {'min': '768px', 'max': '1023px'},
