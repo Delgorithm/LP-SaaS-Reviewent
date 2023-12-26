@@ -1,20 +1,20 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
-import Hero from '../components/Hero/Hero'
-import Entreprises from '../components/Assets/Entreprises'
 import Price from '../components/Price/Price'
 import Faq from '../components/FAQ/Faq'
 import Join from '../components/Join/Join'
 import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
+import Feature from '../components/Feature/Feature'
+import Testimonials from '../components/Testimonials/Testimonials'
+
 
 const Home = () => {
   return (
-    <div className='flex flex-col justify-center'>
+    <div className='flex flex-col justify-center bg-neutrals h-full bg-black-1 text-white overflow-hidden'>
         <Navbar />
-        <div className='h-1 bg-neutrals-13'></div>
-        <Hero />
-        <Entreprises />
+        <Feature />
+        <Testimonials />
         <Price />
         <Faq />
         <Join />
