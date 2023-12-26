@@ -8,7 +8,7 @@ const Faq = () => {
         <p className='mt-5 text-washed-purple-700'>FAQ</p>
         <h3 className='p-4 text-3xl text-center text-washed-purple-700'>Frequently asked questions</h3>
       </div>
-      <div id='faq' className='flex flex-col gap-4 m-32 px-12 pt-4 border-[1px] border-washed-purple-600 rounded-3xl'>
+      <div id='faq' className='flex flex-col gap-4 m-32 px-12 pt-4 border-[1px] border-washed-purple-600 rounded-3xl xxxsm:w-[90%]'>
         <Accordion 
           question="What is Reviewent and how can it help me in my professional interviews ?" 
           answer="Reviewent is a platform specialized in interview training. It offers a comprehensive range of resources, including personalized coaching, practical exercises, and specialized advice to help you excel at every stage of your interview process. Whether you are a beginner or an experienced professional, our service accompanies you to enhance your skills and maximize your chances of success" 

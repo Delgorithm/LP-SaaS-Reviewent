@@ -7,7 +7,7 @@ const Price = () => {
       <p id='pricing' className='mt-8 mr-5 text-washed-purple-700 text-lg font-light -translate-y-32'>Pricing</p>
         <h3 className='p-4 text-3xl text-center text-washed-purple-700 -translate-y-32'>Choose the plan that catapults your interview success</h3>
         <p className='text-center text-washed-purple-400 text-lg leading-7 -translate-y-32'>Unlock premium features and elevate your interview performance with our <br /> flexible pricing plans tailored to your career goals</p>
-        <div className='flex w-screen justify-center gap-10'>
+        <div className='flex w-screen justify-center gap-10 xxxsm:flex-col xxxsm:items-center'>
           <PricingProps 
             title="💎 Basic"
             price="9.99"
@@ -17,7 +17,7 @@ const Price = () => {
             li4="Monthly newsletter with the latest interview tips"
             li5="10 junior coaching sessions"
           />
-          <div className='-translate-y-10'>
+          <div className='-translate-y-10 xxxsm:-translate-y-0 xxxsm:flex xxxsm:justify-center'>
             <PricingProps 
               title="💎 Premium"
               price="39.99"
